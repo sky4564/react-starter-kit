@@ -4,6 +4,7 @@ This is a React Starter Kit project based on [create-vite-app](https://vitejs.de
 
 | Feature        | Tool                       |
 |----------------|----------------------------|
-| Code Formatter | `eslint` + `prettier`      |
 | Network        | `axios` + `tanstack query` |
+| Styling        | `chakra-ui`                |
 | Animation      | `framer-motion`            |
+| Code Formatter | `eslint` + `prettier`      |
