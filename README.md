@@ -1,6 +1,6 @@
 # React Starter Kit
 
-This is a React Starter Kit project based on [create-vite-all](https://vitejs.dev/guide/).
+This is a React Starter Kit project based on [create-vite-app](https://vitejs.dev/guide/).
 
 | Feature        | Tool                       |
 |----------------|----------------------------|
