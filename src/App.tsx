@@ -7,8 +7,16 @@ import {
 } from 'react-router-dom';
 
 import { PATH } from '@/constants/routes.ts';
-import LandingPage from '@/pages/Landing';
+// import LandingPage from '@/pages/Landing';
+// import LoginPage from '@/pages/Login';
+import VerticalSlider from '@/pages/Slide';
 import { QueryClientProvider } from '@/QueryClientProvider.tsx';
+
+const slides = [
+  <div key="1">슬라이드 1</div>,
+  <div key="2">슬라이드 2</div>,
+  <div key="3">슬라이드 3</div>,
+];
 
 const publicRoutes = [
   {
@@ -21,7 +29,7 @@ const publicRoutes = [
     children: [
       {
         path: PATH.INDEX,
-        element: <LandingPage />,
+        element: <VerticalSlider slides={slides} />,
       },
       {
         path: '*',
